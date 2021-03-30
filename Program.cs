@@ -6,6 +6,10 @@ namespace Counter
     {
         static void Main(string[] args)
         {
+            Console.Write("How many numbers do you want to see: ")
+            
+            int count = Convert.ToInt32(Console.ReadLine());    
+                
             Console.WindowHeight = 40;
             for (int i = 1; i <= 10; i++)
             {
