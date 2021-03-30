@@ -10,12 +10,12 @@ namespace Counter
             for (int i = 1; i <= 10; i++)
             {
                 double result = Math.Pow(2, i);
-                Console.WriteLine(i);
+                Console.WriteLine(result);
             }
             for (int i = 10; i > 0; i--)
             {
                 double result = Math.Pow(2, i);
-                Console.WriteLine(i);
+                Console.WriteLine(result);
             }
             Console.ReadKey();
         }
