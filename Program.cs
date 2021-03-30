@@ -11,12 +11,12 @@ namespace Counter
             int count = Convert.ToInt32(Console.ReadLine());    
                 
             Console.WindowHeight = 40;
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= count; i++)
             {
                 double result = Math.Pow(2, i);
                 Console.WriteLine(result);
             }
-            for (int i = 10; i > 0; i--)
+            for (int i = 10; i > count; i--)
             {
                 double result = Math.Pow(2, i);
                 Console.WriteLine(result);
