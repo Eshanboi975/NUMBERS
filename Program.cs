@@ -6,7 +6,7 @@ namespace Counter
     {
         static void Main(string[] args)
         {
-            Console.Write("How many numbers do you want to see: ")
+            Console.Write("How many numbers do you want to see: ");
             
             int count = Convert.ToInt32(Console.ReadLine());    
                 
